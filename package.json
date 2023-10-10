@@ -1,0 +1,22 @@
+{
+  "name": "promises-promises",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --testTimeout=6000"
+  },
+  "author": "DCI",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "puppeteer": "^19.7.2"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/Browser-fetch-promises",
+    "id": 209032432
+  }
+}
